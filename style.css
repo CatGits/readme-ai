@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+}
+
+.navbar-brand {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    padding-left: 3%;
+    color: white;
+    font-size: 2vw;
+}
+
+.ReadTitle {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    width: 100%;
+    margin: 0;
+    padding-top: 10%;
+    font-size: 800%;
+    text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.23);
+    background: #000000;
+    background: linear-gradient(to bottom, #000000 0%, #3A323B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.SubTitle {
+    font-family: 'Roboto Slab', serif;
+    width: 90%;
+    font-size: 125%;
+    color: grey;
+}
+
+.myButton {
+    font-family: 'Roboto Slab', serif;
+    padding: 1% 1%;
+    font-size: 100%;
+    border-radius: 5%;
+    background-color: #000000;
+    color: white;
+    padding-left: 3.25%;
+    padding-right: 3.25%;
+}
+
+.myButton:hover {
+    background-color: #1c1c1c;
+}
+
+.buttonlink {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+    .ReadTitle {
+        font-size: 375%;
+        padding-top: 70%;
+    }
+    .break {
+        display: none;
+    }
+    .SubTitle {
+        font-size: 100%;
+        line-height: 150%;
+    }
+    .myButton {
+        border-radius: 7%
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .ReadTitle {
+        padding-top: 50%;
+    }
+}
