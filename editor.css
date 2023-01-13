@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    background-color: black;
+    width: 100%;
+    color: white;
+    margin: 0;
+    overflow: hidden;
+    text-align: top;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+
+.DownloadButton {
+    font-family: 'Roboto Slab', serif;
+    padding: 0.5% 0.5%;
+    float: right;
+    font-size: 100%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-width: 0;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    padding-left: 2%;
+    margin-right: 1%;
+    padding-right: 2%;
+}
+
+.DownloadButton:hover {
+    cursor: pointer;
+}
+
+.blue {
+    color: blue;
+}
+
+#readmeraw {
+    background-color: #2B2B2C;
+    resize: none;
+    width: 97%;
+    padding-left: 1%;
+    padding-top: 1%;
+    float: left;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    color: rgb(193, 193, 193);
+    font-size: large;
+    border-width: 0;
+    border-color: black;
+}
+
+.large {
+    font-size: 20px;
+}
+
+.small {
+    font-size: 14px;
+}
+
+.AddonsButton {
+    font-size: larger;
+    float: left;
+    margin-left: 5%;
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    .DownloadButton {
+        padding: 1.5% 1.5%;
+        padding-left: 3%;
+        margin-right: 2%;
+        padding-right: 3%;
+    }
+}
+
+
+/* The side navigation menu */
+
+.sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+
+/* The navigation menu links */
+
+.sidenav a {
+    font-family: 'Roboto Slab', serif;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+
+/* When you mouse over the navigation links, change their color */
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+
+/* Position and style the close button (top right corner) */
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
